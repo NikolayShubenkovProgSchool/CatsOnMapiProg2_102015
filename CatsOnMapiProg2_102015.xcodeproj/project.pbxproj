@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8D50FC1BDBA3FA00A6ACC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D50FB1BDBA3FA00A6ACC7 /* main.m */; };
+		4F8D50FF1BDBA3FA00A6ACC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D50FE1BDBA3FA00A6ACC7 /* AppDelegate.m */; };
+		4F8D51051BDBA3FA00A6ACC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D51031BDBA3FA00A6ACC7 /* Main.storyboard */; };
+		4F8D51071BDBA3FA00A6ACC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D51061BDBA3FA00A6ACC7 /* Assets.xcassets */; };
+		4F8D510A1BDBA3FA00A6ACC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D51081BDBA3FA00A6ACC7 /* LaunchScreen.storyboard */; };
+		4F8D51121BDBA6F800A6ACC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8D51111BDBA6F800A6ACC7 /* MapKit.framework */; };
+		4F8D51151BDBA7C200A6ACC7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D51141BDBA7C200A6ACC7 /* MapViewController.m */; };
+		4F8D51181BDBB26900A6ACC7 /* FlickrPhotoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D51171BDBB26900A6ACC7 /* FlickrPhotoInfo.m */; };
+		4F8D511B1BDBC2DC00A6ACC7 /* PhotoDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D511A1BDBC2DC00A6ACC7 /* PhotoDetailedViewController.m */; };
+		9C73BAB64718256AAFC3BD7B /* libPods-CatsOnMapiProg2_102015.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D42461A79E5F0C1D99798 /* libPods-CatsOnMapiProg2_102015.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8D50F71BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsOnMapiProg2_102015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8D50FB1BDBA3FA00A6ACC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F8D50FD1BDBA3FA00A6ACC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F8D50FE1BDBA3FA00A6ACC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F8D51041BDBA3FA00A6ACC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F8D51061BDBA3FA00A6ACC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8D51091BDBA3FA00A6ACC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F8D510B1BDBA3FA00A6ACC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8D51111BDBA6F800A6ACC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4F8D51131BDBA7C200A6ACC7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4F8D51141BDBA7C200A6ACC7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4F8D51161BDBB26900A6ACC7 /* FlickrPhotoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoInfo.h; sourceTree = "<group>"; };
+		4F8D51171BDBB26900A6ACC7 /* FlickrPhotoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoInfo.m; sourceTree = "<group>"; };
+		4F8D51191BDBC2DC00A6ACC7 /* PhotoDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailedViewController.h; sourceTree = "<group>"; };
+		4F8D511A1BDBC2DC00A6ACC7 /* PhotoDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailedViewController.m; sourceTree = "<group>"; };
+		69DBE37D12E606188E04ADCF /* Pods-CatsOnMapiProg2_102015.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsOnMapiProg2_102015.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatsOnMapiProg2_102015/Pods-CatsOnMapiProg2_102015.debug.xcconfig"; sourceTree = "<group>"; };
+		6CCB22CA4B13559356DC1868 /* Pods-CatsOnMapiProg2_102015.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsOnMapiProg2_102015.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatsOnMapiProg2_102015/Pods-CatsOnMapiProg2_102015.release.xcconfig"; sourceTree = "<group>"; };
+		D69D42461A79E5F0C1D99798 /* libPods-CatsOnMapiProg2_102015.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CatsOnMapiProg2_102015.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8D50F41BDBA3FA00A6ACC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8D51121BDBA6F800A6ACC7 /* MapKit.framework in Frameworks */,
+				9C73BAB64718256AAFC3BD7B /* libPods-CatsOnMapiProg2_102015.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3008BE3DE12E87603F0630E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69DBE37D12E606188E04ADCF /* Pods-CatsOnMapiProg2_102015.debug.xcconfig */,
+				6CCB22CA4B13559356DC1868 /* Pods-CatsOnMapiProg2_102015.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F8D50EE1BDBA3FA00A6ACC7 = {
+			isa = PBXGroup;
+			children = (
+				4F8D51191BDBC2DC00A6ACC7 /* PhotoDetailedViewController.h */,
+				4F8D511A1BDBC2DC00A6ACC7 /* PhotoDetailedViewController.m */,
+				4F8D50F91BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015 */,
+				4F8D50F81BDBA3FA00A6ACC7 /* Products */,
+				3008BE3DE12E87603F0630E4 /* Pods */,
+				B6806AB4F65A428AD9CE757F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8D50F81BDBA3FA00A6ACC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D50F71BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8D50F91BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015 */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D51131BDBA7C200A6ACC7 /* MapViewController.h */,
+				4F8D51141BDBA7C200A6ACC7 /* MapViewController.m */,
+				4F8D50FD1BDBA3FA00A6ACC7 /* AppDelegate.h */,
+				4F8D50FE1BDBA3FA00A6ACC7 /* AppDelegate.m */,
+				4F8D51031BDBA3FA00A6ACC7 /* Main.storyboard */,
+				4F8D51161BDBB26900A6ACC7 /* FlickrPhotoInfo.h */,
+				4F8D51171BDBB26900A6ACC7 /* FlickrPhotoInfo.m */,
+				4F8D51061BDBA3FA00A6ACC7 /* Assets.xcassets */,
+				4F8D51081BDBA3FA00A6ACC7 /* LaunchScreen.storyboard */,
+				4F8D510B1BDBA3FA00A6ACC7 /* Info.plist */,
+				4F8D50FA1BDBA3FA00A6ACC7 /* Supporting Files */,
+			);
+			path = CatsOnMapiProg2_102015;
+			sourceTree = "<group>";
+		};
+		4F8D50FA1BDBA3FA00A6ACC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D50FB1BDBA3FA00A6ACC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6806AB4F65A428AD9CE757F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D51111BDBA6F800A6ACC7 /* MapKit.framework */,
+				D69D42461A79E5F0C1D99798 /* libPods-CatsOnMapiProg2_102015.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8D50F61BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8D510E1BDBA3FA00A6ACC7 /* Build configuration list for PBXNativeTarget "CatsOnMapiProg2_102015" */;
+			buildPhases = (
+				04C607B155166F3D10BE64B8 /* Check Pods Manifest.lock */,
+				4F8D50F31BDBA3FA00A6ACC7 /* Sources */,
+				4F8D50F41BDBA3FA00A6ACC7 /* Frameworks */,
+				4F8D50F51BDBA3FA00A6ACC7 /* Resources */,
+				1FA178F80512A0DF9099F129 /* Embed Pods Frameworks */,
+				95143776C991F104771D83E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatsOnMapiProg2_102015;
+			productName = CatsOnMapiProg2_102015;
+			productReference = 4F8D50F71BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8D50EF1BDBA3FA00A6ACC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nikolay Shubenkov";
+				TargetAttributes = {
+					4F8D50F61BDBA3FA00A6ACC7 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4F8D50F21BDBA3FA00A6ACC7 /* Build configuration list for PBXProject "CatsOnMapiProg2_102015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8D50EE1BDBA3FA00A6ACC7;
+			productRefGroup = 4F8D50F81BDBA3FA00A6ACC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8D50F61BDBA3FA00A6ACC7 /* CatsOnMapiProg2_102015 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8D50F51BDBA3FA00A6ACC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8D510A1BDBA3FA00A6ACC7 /* LaunchScreen.storyboard in Resources */,
+				4F8D51071BDBA3FA00A6ACC7 /* Assets.xcassets in Resources */,
+				4F8D51051BDBA3FA00A6ACC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C607B155166F3D10BE64B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA178F80512A0DF9099F129 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatsOnMapiProg2_102015/Pods-CatsOnMapiProg2_102015-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95143776C991F104771D83E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatsOnMapiProg2_102015/Pods-CatsOnMapiProg2_102015-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8D50F31BDBA3FA00A6ACC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8D51151BDBA7C200A6ACC7 /* MapViewController.m in Sources */,
+				4F8D51181BDBB26900A6ACC7 /* FlickrPhotoInfo.m in Sources */,
+				4F8D511B1BDBC2DC00A6ACC7 /* PhotoDetailedViewController.m in Sources */,
+				4F8D50FF1BDBA3FA00A6ACC7 /* AppDelegate.m in Sources */,
+				4F8D50FC1BDBA3FA00A6ACC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F8D51031BDBA3FA00A6ACC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8D51041BDBA3FA00A6ACC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F8D51081BDBA3FA00A6ACC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8D51091BDBA3FA00A6ACC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8D510C1BDBA3FA00A6ACC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8D510D1BDBA3FA00A6ACC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8D510F1BDBA3FA00A6ACC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DBE37D12E606188E04ADCF /* Pods-CatsOnMapiProg2_102015.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatsOnMapiProg2_102015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ias.su.CatsOnMapiProg2-102015";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8D51101BDBA3FA00A6ACC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCB22CA4B13559356DC1868 /* Pods-CatsOnMapiProg2_102015.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatsOnMapiProg2_102015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ias.su.CatsOnMapiProg2-102015";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8D50F21BDBA3FA00A6ACC7 /* Build configuration list for PBXProject "CatsOnMapiProg2_102015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8D510C1BDBA3FA00A6ACC7 /* Debug */,
+				4F8D510D1BDBA3FA00A6ACC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8D510E1BDBA3FA00A6ACC7 /* Build configuration list for PBXNativeTarget "CatsOnMapiProg2_102015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8D510F1BDBA3FA00A6ACC7 /* Debug */,
+				4F8D51101BDBA3FA00A6ACC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8D50EF1BDBA3FA00A6ACC7 /* Project object */;
+}
